@@ -275,6 +275,36 @@ window.BEETHOVEN_JOURNEY_DATA = [
     ]
   },
   {
+    "id": "vienna-1801-spring-sonata",
+    "year": 1801,
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.2103,
+    "lng": 16.3702,
+    "work": "Violin Sonata No. 5 in F major \"Spring\"",
+    "catalogue": "Op. 24",
+    "genre": "Sonata",
+    "period": "1792-1802",
+    "context": "《第五小提琴奏鸣曲》约作于 1800–1801 年的维也纳，1801 年出版，题献给贝多芬的赞助人 Moritz von Fries 伯爵。这是一首为小提琴与钢琴而作的二重奏，两件乐器地位平等、相互对话。「春天」这个别名是后世所加，贝多芬本人并未如此命名。",
+    "meaning": "开篇小提琴那段明朗如歌的旋律，让它成为贝多芬最受欢迎、也最温柔的室内乐之一，「春天」之名正由此而来。它与同期忧郁的《月光》形成鲜明对照，展现了失聪危机前夕贝多芬笔下阳光、抒情的一面。",
+    "source": {
+      "label": "Wikipedia: Violin Sonata No. 5 (Beethoven)",
+      "url": "https://en.wikipedia.org/wiki/Violin_Sonata_No._5_(Beethoven)",
+      "summary": "Op. 24「春天」约作于 1800–1801 年，1801 年出版，题献给 Moritz von Fries 伯爵；为小提琴与钢琴而作，「春天」之名为后世所加。"
+    },
+    "listening": {
+      "target": "Violin Sonata No. 5 in F major \"Spring\", Op. 24",
+      "note": "为小提琴与钢琴而作，开篇旋律明朗如歌，是最受欢迎的小提琴奏鸣曲之一。",
+      "bilibiliSearch": "https://search.bilibili.com/all?keyword=Beethoven%20Spring%20Sonata%20Op%2024",
+      "youtubeSearch": "https://www.youtube.com/results?search_query=Beethoven+Spring+Sonata+Op+24",
+      "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Spring%20Sonata%20Op%2024",
+      "spotifySearch": "https://open.spotify.com/search/Beethoven%20Spring%20Sonata%20Op%2024"
+    },
+    "collections": [
+      "arrival-vienna"
+    ]
+  },
+  {
     "id": "heiligenstadt-1802-testament-symphony2",
     "year": 1802,
     "city": "Vienna",

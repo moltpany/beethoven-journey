@@ -62,7 +62,7 @@ a {
   color: #fff8ea;
   background:
     linear-gradient(90deg, rgba(32, 18, 14, 0.88), rgba(32, 18, 14, 0.42)),
-    url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg") center 22% / cover;
+    url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg") center 28% / cover;
 }
 
 .topbar {
@@ -761,7 +761,7 @@ code {
 html[data-theme="dark"] .hero {
   background:
     linear-gradient(90deg, rgba(8, 6, 5, 0.9), rgba(8, 6, 5, 0.56)),
-    url("https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg") center 22% / cover;
+    url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg") center 28% / cover;
 }
 
 html[data-theme="dark"] select,

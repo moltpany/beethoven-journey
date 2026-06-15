@@ -273,6 +273,22 @@
       warning.hidden = false;
     });
     tiles.addTo(state.map);
+
+    // Leaflet caches the container size when the map is created. Inside the
+    // stretch-aligned grid layout the panel's final height can settle a frame
+    // later, which leaves the tiles unrendered (a blank/gray map) until the
+    // window is resized. Recompute the size once the layout is ready and on
+    // every later resize so the tiles always fill the panel.
+    const refreshMapSize = () => {
+      if (state.map) {
+        state.map.invalidateSize();
+      }
+    };
+    if (typeof window !== "undefined") {
+      window.requestAnimationFrame(refreshMapSize);
+      window.addEventListener("load", refreshMapSize);
+      window.addEventListener("resize", refreshMapSize);
+    }
   }
 
   function renderMarkers(entries) {
