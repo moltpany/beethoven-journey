@@ -647,6 +647,42 @@ html[data-theme="dark"] .collection-items::-webkit-scrollbar-thumb:hover {
   font-weight: 700;
 }
 
+.place-related {
+  display: grid;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.place-related[hidden] {
+  display: none;
+}
+
+.place-related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.place-related-link {
+  border: 1px solid rgba(184, 138, 50, 0.55);
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #fffaf1;
+  color: var(--accent-strong);
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.place-related-link:hover,
+.place-related-link:focus-visible {
+  border-color: var(--accent);
+  background: #fff1d8;
+  outline: none;
+}
+
 .place-image {
   display: grid;
   gap: 7px;
@@ -827,6 +863,15 @@ html[data-theme="dark"] .place-note {
   background: #2b2118;
 }
 
+html[data-theme="dark"] .place-related-link {
+  background: #2b221a;
+}
+
+html[data-theme="dark"] .place-related-link:hover,
+html[data-theme="dark"] .place-related-link:focus-visible {
+  background: #352a20;
+}
+
 html[data-theme="dark"] .place-image img {
   background: #30261f;
 }
@@ -883,7 +928,8 @@ html[data-theme="dark"] .marker-cluster-large div {
   .place-note.has-image > span,
   .place-note.has-image > strong,
   .place-note.has-image > p,
-  .place-note.has-image > a {
+  .place-note.has-image > a,
+  .place-note.has-image > .place-related {
     grid-column: 1;
   }
 

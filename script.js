@@ -496,7 +496,7 @@
     setText("detail-meaning", entry.meaning);
     renderDetailCollections(entry);
     renderListening(entry);
-    renderPlace(entry.place);
+    renderPlace(entry);
     const mapLink = $("detail-map-link");
     if (mapLink) {
       mapLink.hidden = false;
@@ -584,7 +584,60 @@
     container.hidden = false;
   }
 
-  function renderPlace(place) {
+  function placeKey(place) {
+    if (!place || typeof place.lat !== "number" || typeof place.lng !== "number") {
+      return "";
+    }
+    // Match on coordinates: the descriptive name can vary between works that
+    // sit at the same physical spot (e.g. the Bonn electoral court), so the
+    // point itself is the reliable signal of "same place".
+    return `${place.lat}|${place.lng}`;
+  }
+
+  // Works that share the exact same venue as `entry` (same coordinates).
+  function getSameVenueEntries(entry) {
+    if (!entry || !entry.place) {
+      return [];
+    }
+    const key = placeKey(entry.place);
+    if (!key) {
+      return [];
+    }
+    return state.entries
+      .filter((other) => other.id !== entry.id && other.place && placeKey(other.place) === key)
+      .sort(byYearThenCity);
+  }
+
+  function renderPlaceRelated(entry) {
+    const container = $("detail-place-related");
+    const text = $("detail-place-related-text");
+    const links = $("detail-place-related-links");
+    if (!container || !text || !links) {
+      return;
+    }
+    links.innerHTML = "";
+    const related = getSameVenueEntries(entry);
+    if (related.length === 0) {
+      container.hidden = true;
+      return;
+    }
+
+    text.textContent = `同一地点（${entry.place.name}）在本页还关联另外 ${related.length} 部作品，点击可切换查看：`;
+    for (const other of related) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "place-related-link";
+      button.dataset.id = other.id;
+      button.textContent = `${other.work} ${other.catalogue}（${other.year}）`;
+      button.setAttribute("aria-label", `查看同一地点的作品 ${other.work} ${other.catalogue}`);
+      button.addEventListener("click", () => selectEntry(other.id, false, false));
+      links.appendChild(button);
+    }
+    container.hidden = false;
+  }
+
+  function renderPlace(entry) {
+    const place = entry && entry.place;
     const container = $("detail-place");
     if (!container || !place) {
       if (container) {
@@ -592,6 +645,7 @@
         container.hidden = true;
       }
       renderPlaceImage(null);
+      renderPlaceRelated(null);
       return;
     }
 
@@ -599,6 +653,7 @@
     setText("detail-place-name", place.name);
     setText("detail-place-address", place.address);
     setText("detail-place-note", place.note);
+    renderPlaceRelated(entry);
     const source = $("detail-place-source");
     source.href = place.source.url;
     source.textContent = `查看地点来源：${place.source.label}`;
