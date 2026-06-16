@@ -28,6 +28,16 @@ Beethoven Journey 是一张互动地图（Leaflet + OpenStreetMap），把贝多
 - [Leaflet 1.9](https://leafletjs.com/) + [OpenStreetMap](https://www.openstreetmap.org/) 提供地图
 - 数据维护在 `data/beethoven-journey.json`，同步一份 `data/beethoven-journey.js`（写成 `window.BEETHOVEN_JOURNEY_DATA = ...`），以便用 `file://` 直接打开本地预览时也能读到数据
 - 主题切换通过 `html[data-theme]` 与 `localStorage` 持久化（key: `beethoven-journey-theme`）
+- 语言切换通过 `html[data-lang]` 与 `localStorage` 持久化（key: `beethoven-journey-lang`），支持中英双语
+
+## 中英双语与维护
+
+页面支持中英双语，右上角有语言切换按钮。翻译分两层：
+
+- **界面文案（标题、导航、按钮、阶段名等）**：维护在 `script.js` 的 `STATIC_EN`（页面静态文案）与 `STRINGS`（动态文案）里。
+- **每条作品的正文（背景 / 含义 / 地点说明 / 试听说明 / 来源摘要）**：维护在英文 overlay `data/beethoven-journey.en.json` 中，按 `id` 与中文基准数据对齐，并同步一份 `data/beethoven-journey.en.js`（写成 `window.BEETHOVEN_JOURNEY_DATA_EN = ...`）。
+
+> ⚠️ **新增 / 修改作品时请同步 overlay**：中文 `data/beethoven-journey.json` 是唯一基准；每当你在基准里**新增一条作品或改动正文**，就要在 `data/beethoven-journey.en.json` 里补上 / 更新同一个 `id` 的条目（字段：`context`、`meaning`、`source.summary`、`listening.note`，若该作品有 `place` 还需 `place.kind / certainty / note`），并重新生成 `.en.js`。若 overlay 缺某个 `id`，英文模式会自动回退显示该作品的中文，不会报错——但那一条就不是英文了。
 
 ## 本地运行
 
