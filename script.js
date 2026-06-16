@@ -47,6 +47,7 @@
     filtered: [],
     selectedId: null,
     map: null,
+    cluster: null,
     markers: new Map(),
   };
 
@@ -274,6 +275,21 @@
     });
     tiles.addTo(state.map);
 
+    // Many works share the same city-level coordinate (e.g. a dozen Vienna
+    // pieces sit on the exact same point), so plain markers would stack and
+    // hide one another. When the marker-cluster plugin is available, group
+    // them: nearby pins collapse into a count bubble, and a cluster that can't
+    // be split by zooming fans out (spiderfies) on click so every work stays
+    // reachable. If the plugin failed to load, fall back to plain markers.
+    if (typeof L.markerClusterGroup === "function") {
+      state.cluster = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        maxClusterRadius: 44,
+      });
+      state.map.addLayer(state.cluster);
+    }
+
     // Leaflet caches the container size when the map is created. Inside the
     // stretch-aligned grid layout the panel's final height can settle a frame
     // later, which leaves the tiles unrendered (a blank/gray map) until the
@@ -299,7 +315,14 @@
     state.map.closePopup();
     for (const marker of state.markers.values()) {
       marker.closePopup();
-      state.map.removeLayer(marker);
+      if (state.cluster) {
+        state.cluster.removeLayer(marker);
+      } else {
+        state.map.removeLayer(marker);
+      }
+    }
+    if (state.cluster) {
+      state.cluster.clearLayers();
     }
     state.map.closePopup();
     document.querySelectorAll(".leaflet-popup").forEach((popup) => popup.remove());
@@ -308,7 +331,12 @@
     for (const entry of entries) {
       const coords = getEntryCoordinates(entry);
       const placeLine = entry.place ? `<br><span>${entry.place.name}</span>` : "";
-      const marker = L.marker(coords).addTo(state.map);
+      const marker = L.marker(coords);
+      if (state.cluster) {
+        state.cluster.addLayer(marker);
+      } else {
+        marker.addTo(state.map);
+      }
       marker.bindPopup(`
         <strong>${entry.city}, ${entry.year}</strong><br>
         ${entry.work} ${entry.catalogue}${placeLine}
@@ -627,9 +655,16 @@
       mapElement.scrollIntoView({ behavior: "smooth", block: "center" });
     }
     if (state.map) {
+      const marker = state.markers.get(entry.id);
+      // Inside a cluster the marker may be hidden in a count bubble; ask the
+      // plugin to zoom/spiderfy until it is visible, then open its popup.
+      if (state.cluster && marker && typeof state.cluster.zoomToShowLayer === "function") {
+        state.cluster.zoomToShowLayer(marker, () => marker.openPopup());
+        return;
+      }
       state.map.setView(getEntryCoordinates(entry), Math.max(state.map.getZoom(), 6), { animate: true });
-      if (state.markers.has(entry.id)) {
-        state.markers.get(entry.id).openPopup();
+      if (marker) {
+        marker.openPopup();
       }
     }
   }

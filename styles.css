@@ -393,6 +393,25 @@ html[data-theme="dark"] .collection-items::-webkit-scrollbar-thumb:hover {
   overflow: hidden;
 }
 
+/* Recolor the marker-cluster bubbles to match the warm palette. */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(138, 47, 42, 0.25);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(138, 47, 42, 0.9);
+}
+
+.marker-cluster span {
+  color: #fff8ea;
+  font-weight: 700;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+}
+
 .map-warning {
   margin: 10px 0 0;
   color: var(--accent-strong);
@@ -840,6 +859,18 @@ html[data-theme="dark"] .leaflet-bar a {
 html[data-theme="dark"] .leaflet-bar a:hover,
 html[data-theme="dark"] .leaflet-bar a:focus {
   background: #2a211c;
+}
+
+html[data-theme="dark"] .marker-cluster-small,
+html[data-theme="dark"] .marker-cluster-medium,
+html[data-theme="dark"] .marker-cluster-large {
+  background-color: rgba(215, 122, 101, 0.3);
+}
+
+html[data-theme="dark"] .marker-cluster-small div,
+html[data-theme="dark"] .marker-cluster-medium div,
+html[data-theme="dark"] .marker-cluster-large div {
+  background-color: rgba(196, 92, 72, 0.92);
 }
 
 @media (min-width: 860px) {
