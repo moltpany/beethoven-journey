@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>贝多芬足迹互动地图</title>
+    <title>贝多芬足迹互动地图 · Beethoven Journey</title>
     <script>
       // Pre-init theme before render to avoid flash of wrong theme/label
       (function () {
@@ -33,11 +33,14 @@
       <nav class="topbar" aria-label="页面导航">
         <a href="#map" class="brand">Beethoven Journey</a>
         <div class="nav-links">
-          <a href="#collections">阶段</a>
-          <a href="#timeline">时间线</a>
-          <a href="#detail">作品详情</a>
-          <a href="#sources">来源</a>
+          <a href="#collections" data-i18n="nav.stages">阶段</a>
+          <a href="#timeline" data-i18n="nav.timeline">时间线</a>
+          <a href="#detail" data-i18n="nav.detail">作品详情</a>
+          <a href="#sources" data-i18n="nav.sources">来源</a>
           <a class="cross-link" href="https://moltpany.github.io/mozart-journey/">Mozart Journey ↗</a>
+          <a class="cross-link" href="https://moltpany.github.io/music-diary/">Music Diary ↗</a>
+          <a class="cross-link" href="https://moltpany.github.io/">Moltpany ↗</a>
+          <button id="lang-toggle" class="theme-toggle lang-toggle" type="button" aria-label="Switch to English">EN</button>
           <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="切换显示模式"></button>
         </div>
       </nav>
@@ -53,39 +56,39 @@
         })();
       </script>
       <div class="hero-content">
-        <p class="eyebrow">1770-1827 · 波恩 · 维也纳 · 代表作品</p>
-        <h1>贝多芬的足迹</h1>
-        <p class="hero-copy">沿着地图与年份时间线，看贝多芬从波恩的童年、初到维也纳，到失聪、写下海利根施塔特遗嘱、监护侄子卡尔，直至《第九交响曲》的一生足迹与代表作品。</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">1770-1827 · 波恩 · 维也纳 · 代表作品</p>
+        <h1 data-i18n="hero.title">贝多芬的足迹</h1>
+        <p class="hero-copy" data-i18n="hero.copy">沿着地图与年份时间线，看贝多芬从波恩的童年、初到维也纳，到失聪、写下海利根施塔特遗嘱、监护侄子卡尔，直至《第九交响曲》的一生足迹与代表作品。</p>
       </div>
     </header>
 
     <main>
       <section class="controls-section" aria-labelledby="filters-title">
         <div>
-          <p class="section-kicker">筛选</p>
-          <h2 id="filters-title">按城市、时期和类型探索</h2>
+          <p class="section-kicker" data-i18n="filters.kicker">筛选</p>
+          <h2 id="filters-title" data-i18n="filters.title">按城市、时期和类型探索</h2>
         </div>
         <form class="filters" aria-label="足迹筛选">
           <label>
-            搜索
+            <span data-i18n="filters.search">搜索</span>
             <input id="search-filter" class="search-input" type="search" placeholder="Op. 67 / Symphony / Vienna">
           </label>
           <label>
-            城市
+            <span data-i18n="filters.city">城市</span>
             <select id="city-filter"></select>
           </label>
           <label>
-            时期
+            <span data-i18n="filters.period">时期</span>
             <select id="period-filter">
-              <option value="all">全部时期</option>
-              <option value="1770-1792">1770-1792 波恩与启程</option>
-              <option value="1792-1802">1792-1802 维也纳早期</option>
-              <option value="1803-1814">1803-1814 英雄中期</option>
-              <option value="1815-1827">1815-1827 晚期与第九</option>
+              <option value="all" data-i18n="period.all">全部时期</option>
+              <option value="1770-1792" data-i18n="period.bonn">1770-1792 波恩与启程</option>
+              <option value="1792-1802" data-i18n="period.early">1792-1802 维也纳早期</option>
+              <option value="1803-1814" data-i18n="period.heroic">1803-1814 英雄中期</option>
+              <option value="1815-1827" data-i18n="period.late">1815-1827 晚期与第九</option>
             </select>
           </label>
           <label>
-            类型
+            <span data-i18n="filters.genre">类型</span>
             <select id="genre-filter"></select>
           </label>
         </form>
@@ -95,25 +98,25 @@
         <div class="map-panel">
           <div class="panel-header">
             <div>
-              <p class="section-kicker">地图</p>
-              <h2 id="map-title">欧洲足迹</h2>
+              <p class="section-kicker" data-i18n="map.kicker">地图</p>
+              <h2 id="map-title" data-i18n="map.title">欧洲足迹</h2>
             </div>
             <p id="result-count" class="result-count" aria-live="polite"></p>
           </div>
           <div id="map" role="application" aria-label="贝多芬足迹城市互动地图"></div>
-          <p id="map-warning" class="map-warning" hidden>地图底图需要联网加载；下方时间线和作品详情仍可正常阅读。</p>
+          <p id="map-warning" class="map-warning" hidden data-i18n="map.warning">地图底图需要联网加载；下方时间线和作品详情仍可正常阅读。</p>
         </div>
 
         <aside class="timeline-panel" id="timeline" aria-labelledby="timeline-title">
           <div class="panel-header compact">
             <div>
-              <p class="section-kicker">时间线</p>
-              <h2 id="timeline-title">年份与作品</h2>
+              <p class="section-kicker" data-i18n="timeline.kicker">时间线</p>
+              <h2 id="timeline-title" data-i18n="timeline.title">年份与作品</h2>
             </div>
           </div>
           <div id="timeline-selection" class="timeline-selection" hidden>
             <span id="timeline-selection-text"></span>
-            <button id="timeline-detail-link" type="button">查看作品详情</button>
+            <button id="timeline-detail-link" type="button" data-i18n="timeline.detailLink">查看作品详情</button>
           </div>
           <div id="timeline-list" class="timeline-list"></div>
         </aside>
@@ -121,7 +124,7 @@
 
       <section class="detail-section" id="detail" aria-live="polite">
         <div class="detail-main">
-          <p class="section-kicker">作品详情</p>
+          <p class="section-kicker" data-i18n="detail.kicker">作品详情</p>
           <h2 id="detail-work">选择一个地点或年份</h2>
           <p id="detail-meta" class="detail-meta">点击地图点位或时间线节点后，这里会显示作品背景与意义。</p>
           <div id="detail-collections" class="detail-collections" hidden></div>
@@ -139,27 +142,27 @@
               <span id="detail-place-related-text" class="place-related-text"></span>
               <div id="detail-place-related-links" class="place-related-links"></div>
             </div>
-            <a id="detail-place-source" href="#" target="_blank" rel="noreferrer">查看地点来源</a>
+            <a id="detail-place-source" href="#" target="_blank" rel="noreferrer" data-i18n="detail.placeSource">查看地点来源</a>
             <figure id="detail-place-image" class="place-image" hidden>
               <img id="detail-place-image-img" alt="" loading="lazy">
               <figcaption>
                 <span id="detail-place-image-caption"></span>
-                <a id="detail-place-image-source" href="#" target="_blank" rel="noreferrer">图片来源</a>
+                <a id="detail-place-image-source" href="#" target="_blank" rel="noreferrer" data-i18n="detail.imageSource">图片来源</a>
               </figcaption>
             </figure>
           </div>
           <div class="detail-grid">
             <article>
-              <h3>创作背景</h3>
+              <h3 data-i18n="detail.contextHead">创作背景</h3>
               <p id="detail-context">等待选择。</p>
             </article>
             <article>
-              <h3>含义</h3>
+              <h3 data-i18n="detail.meaningHead">含义</h3>
               <p id="detail-meaning">等待选择。</p>
             </article>
           </div>
           <div class="detail-actions">
-            <button id="detail-map-link" class="detail-map-link" type="button" hidden>查看地图位置</button>
+            <button id="detail-map-link" class="detail-map-link" type="button" hidden data-i18n="detail.mapLink">查看地图位置</button>
             <a id="detail-source" class="source-link" href="#" target="_blank" rel="noreferrer" hidden>查看参考来源</a>
           </div>
         </div>
@@ -167,29 +170,30 @@
 
       <section class="collections-section" id="collections" aria-labelledby="collections-title">
         <div class="section-heading">
-          <p class="section-kicker">人生阶段</p>
-          <h2 id="collections-title">按一生的核心阶段整理</h2>
+          <p class="section-kicker" data-i18n="collections.kicker">人生阶段</p>
+          <h2 id="collections-title" data-i18n="collections.title">按一生的核心阶段整理</h2>
         </div>
         <nav id="collection-nav" class="collection-nav" aria-label="人生阶段快速导航"></nav>
         <div id="collection-list" class="collection-list"></div>
       </section>
 
       <section class="sources-section" id="sources" aria-labelledby="sources-title">
-        <p class="section-kicker">资料说明</p>
-        <h2 id="sources-title">保守表述，便于后续扩展</h2>
-        <p>第一版选取贝多芬一生的关键节点，来源字段保存在 JSON 数据中。对委约、首演或诠释不确定的作品，页面采用“通常认为”“别名为后世所加”“具体场合不确定”等保守表达。</p>
+        <p class="section-kicker" data-i18n="sources.kicker">资料说明</p>
+        <h2 id="sources-title" data-i18n="sources.title">保守表述，便于后续扩展</h2>
+        <p data-i18n="sources.body">第一版选取贝多芬一生的关键节点，来源字段保存在 JSON 数据中。对委约、首演或诠释不确定的作品，页面采用“通常认为”“别名为后世所加”“具体场合不确定”等保守表达。</p>
         <div id="source-list" class="source-list"></div>
       </section>
     </main>
 
     <footer>
-      <p>静态网页原型 · Leaflet + OpenStreetMap · 内容可在 <code>data/beethoven-journey.json</code> 中维护</p>
-      <p>姊妹作品：<a href="https://moltpany.github.io/mozart-journey/">Mozart Journey</a> · 回到 <a href="https://moltpany.github.io/">Moltpany</a></p>
+      <p data-i18n-html="footer.line1">静态网页原型 · Leaflet + OpenStreetMap · 内容可在 <code>data/beethoven-journey.json</code> 中维护</p>
+      <p data-i18n-html="footer.line2">姊妹作品：<a href="https://moltpany.github.io/mozart-journey/">Mozart Journey</a> · 音乐枢纽：<a href="https://moltpany.github.io/music-diary/">Music Diary</a> · 回到 <a href="https://moltpany.github.io/">Moltpany</a></p>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
     <script src="data/beethoven-journey.js"></script>
+    <script src="data/beethoven-journey.en.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

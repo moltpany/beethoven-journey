@@ -1,0 +1,358 @@
+[
+  {
+    "id": "bonn-1782-dressler-variations",
+    "context": "Beethoven was born in Bonn in 1770, the son of a singer at the electoral court. WoO 63 is one of his earliest formally published keyboard works, written around the age of eleven or twelve and built on a theme from a march by Dressler. It dates from the Bonn period, long before his deafness and his rise to fame in Vienna.",
+    "meaning": "These variations are not a mature masterpiece but a starting point in the sense of a journey: they let the map begin with a child prodigy's exercise in a court town on the Rhine, a reminder that Beethoven's earliest identity was that of a keyboard boy in Bonn, not the symphonic master of Vienna.",
+    "source": {
+      "summary": "WoO 63 is generally considered one of Beethoven's earliest published works, composed around 1782 during the Bonn period; it is a set of keyboard variations often cited as early evidence of his childhood compositional ability."
+    },
+    "listening": {
+      "note": "Start of the journey: an earliest keyboard variation set, a fitting listening entry point for the Bonn birthplace node."
+    },
+    "place": {
+      "kind": "Birthplace and childhood home",
+      "certainty": "fairly solid",
+      "note": "The Beethoven-Haus Bonn states that Beethoven was born in December 1770 in the attic room at the rear of Bonngasse 20, today the Beethoven birthplace museum. Marking the earliest published keyboard work, WoO 63, here lets the map open with the childhood and family musical education in Bonn."
+    }
+  },
+  {
+    "id": "bonn-1783-electoral-sonatas",
+    "context": "These three piano sonatas, known as the \"Electoral Sonatas,\" are dedicated to the Elector of Cologne, Maximilian Friedrich, and were composed during the Bonn court period when Beethoven was about twelve or thirteen. At the time he served in the court orchestra and studied with Christian Gottlob Neefe.",
+    "meaning": "They show that very early on Beethoven was using the sonata to practise structure and expression, a genre that would later become the most central private form of his entire life. Placed at the Bonn court, they reveal the original professional soil of the future Viennese composer.",
+    "source": {
+      "summary": "WoO 47 is a set of three piano sonatas composed in Bonn during Beethoven's youth and dedicated to the Elector Maximilian Friedrich; they are often regarded as the starting point of his early sonata writing."
+    },
+    "listening": {
+      "note": "Early piano sonatas from the Bonn court period."
+    },
+    "place": {
+      "kind": "Court appointment and creative environment",
+      "certainty": "fairly solid",
+      "note": "Bonn was the seat of the Elector of Cologne, and as a youth Beethoven served in the court orchestra as organist and violist. WoO 47 is dedicated to the Elector Maximilian Friedrich, so the page marks it within the court context rather than at a specific room."
+    }
+  },
+  {
+    "id": "bonn-1790-joseph-cantata",
+    "context": "Emperor Joseph II died in early 1790, and the Bonn reading society commissioned the nineteen-year-old Beethoven to write a memorial cantata. It is one of the largest works he composed before leaving Bonn for Vienna; later opinion holds that Brahms greatly admired this early piece.",
+    "meaning": "This cantata lets one hear how the young Beethoven of Bonn could already handle large-scale vocal and orchestral structures and touch on themes of Enlightenment, humanity and freedom, themes that would later extend all the way to the \"Ode to Joy\" of the Ninth Symphony. It is the threshold between the \"Bonn Beethoven\" and the \"Vienna Beethoven.\"",
+    "source": {
+      "summary": "WoO 87 is a cantata composed by Beethoven in Bonn in 1790 to mourn Emperor Joseph II, commissioned by the local reading society; it is regarded as one of his most important large-scale works of the late Bonn period."
+    },
+    "listening": {
+      "note": "A large-scale vocal work from before he left Bonn, already showing traces of the later humanitarian themes."
+    },
+    "place": {
+      "kind": "Commission and creative environment",
+      "certainty": "fairly solid",
+      "note": "This cantata was commissioned by the Bonn reading society (Lesegesellschaft) to mourn Emperor Joseph II, who died in early 1790; according to the sources it seems not to have been actually performed at the time. The page marks it in Bonn as the most important large-scale vocal work before he left his hometown."
+    }
+  },
+  {
+    "id": "vienna-1795-piano-trios-op1",
+    "context": "In 1792 Beethoven left Bonn and settled in Vienna, studying with Haydn and others. He deliberately chose the piano trios as his \"Opus 1,\" published in 1795 and dedicated to his patron Prince Lichnowsky, making his formal debut as a composer.",
+    "meaning": "Choosing Op. 1 as his debut work was a deliberate gesture: rather than filling it out with student exercises, Beethoven announced his arrival with mature, confident, substantial chamber music. It marks the \"newly arrived in Vienna\" phase, the young Beethoven establishing himself through aristocratic salons, publishing and pianistic virtuosity.",
+    "source": {
+      "summary": "Op. 1 comprises three piano trios published by Beethoven in Vienna in 1795 and dedicated to Prince Lichnowsky, which he himself chose as his formal \"Opus 1.\""
+    },
+    "listening": {
+      "note": "The \"Opus 1\" Beethoven chose himself, the debut work of his early Vienna years."
+    },
+    "place": {
+      "kind": "Patron's salon and publication",
+      "certainty": "disputed",
+      "note": "Op. 1 is dedicated to Beethoven's early patron Prince Lichnowsky and, as biographies often relate, was reportedly first tried out in his salon. The evidence for the specific performance room is not entirely solid, so the page marks it as a context associated with the prince's salon rather than a definite premiere location."
+    }
+  },
+  {
+    "id": "vienna-1798-pathetique",
+    "context": "The \"Pathétique\" Sonata was composed around 1798 in Vienna and dedicated to Prince Lichnowsky. It opens with a grave, brooding slow introduction before plunging into a violent Allegro, and is one of Beethoven's most famous early piano sonatas.",
+    "meaning": "The title \"Pathétique\" and that dramatic contrast let one hear Beethoven's emotional intensity in advance: the piano sonata is no longer mere salon entertainment but becomes a stage for serious emotion. It belongs to the early Vienna years before the deafness crisis, when his fame was at its height.",
+    "source": {
+      "summary": "Op. 13, the \"Pathétique,\" was composed around 1798 and dedicated to Prince Lichnowsky; it is one of the most famous and most dramatic piano sonatas of Beethoven's early Vienna years."
+    },
+    "listening": {
+      "note": "A representative piano sonata from before the deafness, opening with a dramatic slow introduction."
+    }
+  },
+  {
+    "id": "vienna-1800-symphony-1",
+    "context": "Beethoven's First Symphony premiered in 1800 at a self-organized concert at the Burgtheater in Vienna. By then he was already a well-known pianist and composer, finally speaking formally within the symphonic tradition established by Haydn and Mozart.",
+    "meaning": "This symphony still stands within the Classical tradition, yet already shows personal edges, such as its unexpected opening and energetic rhythms. A work from before the deafness crisis, it marks Beethoven's step in Vienna from the piano salon toward the public concert hall.",
+    "source": {
+      "summary": "Op. 21 premiered in 1800 at the Burgtheater in Vienna; it is Beethoven's first symphony, continuing the tradition of Haydn and Mozart while showing personal characteristics."
+    },
+    "listening": {
+      "note": "Beethoven's first step into the symphonic tradition, still from before the deafness."
+    },
+    "place": {
+      "kind": "Premiere location",
+      "certainty": "fairly solid",
+      "note": "The sources place the premiere of the First Symphony at a Beethoven self-organized concert (Akademie) at the Vienna Burgtheater in April 1800. The old Burgtheater stood at Michaelerplatz and no longer exists; the page marks its approximate location."
+    }
+  },
+  {
+    "id": "vienna-1801-moonlight",
+    "context": "The \"Moonlight\" Sonata was composed around 1801 in Vienna and dedicated to Beethoven's pupil Giulietta Guicciardi. Beethoven marked it \"quasi una fantasia,\" breaking with convention by placing the quietest movement at the opening. The nickname \"Moonlight\" only became popular after his death.",
+    "meaning": "The famous first movement weaves a still, melancholy nocturnal scene from continuous triplets and is one of Beethoven's most widely known melodies. Written when his hearing was beginning to deteriorate but before the crisis became public, it can be seen as an entry point to the private emotion preceding the years of deafness.",
+    "source": {
+      "summary": "Op. 27 No. 2, the \"Moonlight,\" was composed around 1801 and dedicated to Giulietta Guicciardi, marked as a \"quasi una fantasia\" sonata; the nickname \"Moonlight\" was added later."
+    },
+    "listening": {
+      "note": "One of the most famous piano sonatas, with a quiet, melancholy first movement."
+    }
+  },
+  {
+    "id": "vienna-1801-spring-sonata",
+    "context": "The Fifth Violin Sonata was written around 1800–1801 in Vienna and published in 1801, dedicated to Beethoven’s patron Count Moritz von Fries. It is a duo for violin and piano in which the two instruments are equal partners in dialogue. The nickname “Spring” was added later; Beethoven himself did not give it that name.",
+    "meaning": "The bright, songful violin melody that opens the work makes it one of Beethoven’s most beloved and most tender chamber pieces — the source of its “Spring” nickname. It stands in sharp contrast to the brooding Moonlight Sonata of the same period, showing the sunlit, lyrical side of Beethoven on the eve of the deafness crisis.",
+    "source": {
+      "summary": "Op. 24 (“Spring”) was composed around 1800–1801 and published in 1801, dedicated to Count Moritz von Fries; scored for violin and piano, the “Spring” nickname was added later."
+    },
+    "listening": {
+      "note": "Scored for violin and piano; the opening melody is bright and songful, making it one of the most beloved violin sonatas."
+    }
+  },
+  {
+    "id": "heiligenstadt-1802-testament-symphony2",
+    "context": "In 1802 Beethoven, his hearing steadily worsening, went to Heiligenstadt to recuperate, and there wrote the Heiligenstadt Testament, a letter to his brothers confessing his deafness and thoughts of suicide, though he ultimately chose to live on for the sake of his art. At almost the same time he completed the bright, energetic Second Symphony.",
+    "meaning": "This is the most crucial turning point of the whole journey: the deepest personal crisis (deafness, despair, the writing of the testament) set beside a symphony that sounds anything but gloomy. It shows how Beethoven bore suffering and creation separately, and sows the seed for the later \"heroic\" years.",
+    "source": {
+      "summary": "In 1802 Beethoven wrote the Heiligenstadt Testament confessing his deafness; during the same period he completed the bright-spirited Second Symphony, Op. 36."
+    },
+    "listening": {
+      "note": "A bright symphony completed at the same time as the deafness crisis and the testament, the turning point of the whole journey."
+    },
+    "place": {
+      "kind": "Site of the deafness crisis and the testament",
+      "certainty": "fairly solid",
+      "note": "In the summer and autumn of 1802, on his doctor's advice, Beethoven went to recuperate at Heiligenstadt outside Vienna. The sources place the residence where he wrote the Heiligenstadt Testament at Probusgasse 6, today a museum. This letter to his brothers confessed his deafness and despair."
+    }
+  },
+  {
+    "id": "vienna-1804-eroica",
+    "context": "The \"Eroica\" Symphony was composed in 1803-1804. As the story goes, Beethoven originally intended to dedicate it to Napoleon, but on hearing that Napoleon had crowned himself emperor he angrily struck out the dedication. Its scale and ambition far exceeded any earlier symphony, opening his \"heroic\" middle period.",
+    "meaning": "This work is the eruption after emerging from the deafness crisis: length, force and drama are all radically amplified, and the second movement is a solemn funeral march. It marks Beethoven's turn from the Classical framework toward heroic narrative; the Beethoven who \"struggles against fate\" truly begins here.",
+    "source": {
+      "summary": "Op. 55, the \"Eroica,\" was composed in 1803-1804 on an unprecedented scale; the story that Beethoven originally intended to dedicate it to Napoleon and struck out the dedication after Napoleon crowned himself emperor is often taken as the beginning of the heroic middle period."
+    },
+    "listening": {
+      "note": "The eruption after emerging from the deafness crisis, the starting point of the \"heroic years.\""
+    },
+    "place": {
+      "kind": "Private premiere location",
+      "certainty": "fairly solid",
+      "note": "It is often said that the \"Eroica\" was first performed privately at the palace of Beethoven's patron Prince Lobkowitz before its public premiere. The dedication, too, ultimately went to Prince Lobkowitz."
+    }
+  },
+  {
+    "id": "vienna-1804-waldstein",
+    "context": "The \"Waldstein\" Sonata was composed around 1803-1804 and dedicated to Count Waldstein, an early patron from Beethoven's Bonn period. It makes high demands on the piano technique of its day, and its bright, brilliant finale is especially famous.",
+    "meaning": "It brings the energy of the heroic middle period into the piano: a wide range, sustained drive and virtuosic writing give the piano sonata too a symphonic sense of scale. It shows that as his deafness deepened, Beethoven wrote ever more boldly at the keyboard.",
+    "source": {
+      "summary": "Op. 53, the \"Waldstein,\" was composed around 1803-1804 and dedicated to Count Waldstein; it is a technically demanding, large-scale piano sonata of the middle period."
+    },
+    "listening": {
+      "note": "A virtuosic sonata that brings the energy of the heroic middle period into the piano."
+    }
+  },
+  {
+    "id": "vienna-1805-appassionata",
+    "context": "The \"Appassionata\" Sonata was composed around 1804-1805. The title \"Appassionata\" was added later but fits well: known for its violent contrasts, brooding minor key and explosive finale, it is one of the most intense piano sonatas of Beethoven's middle period.",
+    "meaning": "It compresses the conflict of the heroic middle period into the private space of the piano: not a symphonic call to the public, but an inner storm that almost pushes the instrument to its limits. It is often ranked with the \"Eroica\" and the Fifth as the pianistic representative of Beethoven's \"struggling\" temperament.",
+    "source": {
+      "summary": "Op. 57, the \"Appassionata,\" was composed around 1804-1805; the nickname \"Appassionata\" was added later. Known for its violent contrasts and explosive finale, it is one of the most intense piano sonatas of the middle period."
+    },
+    "listening": {
+      "note": "The most intense piano sonata of the middle period, an inner storm."
+    }
+  },
+  {
+    "id": "vienna-1805-fidelio",
+    "context": "\"Fidelio\" is Beethoven's only opera, telling how the wife Leonore, disguised as a man, rescues her politically persecuted husband. The 1805 premiere failed, and after years of revision the 1814 final version truly took hold.",
+    "meaning": "Of all his works, it most directly expresses Beethoven's political ideals: fidelity, freedom and resistance to tyranny. Its long revision history also shows his unease and persistence as a dramatic composer; opera was not his most natural genre, but for that very reason it reveals his convictions especially clearly.",
+    "source": {
+      "summary": "Op. 72, \"Fidelio,\" is Beethoven's only opera; its 1805 premiere at the Theater an der Wien failed, and after many revisions it succeeded in 1814. Its themes are fidelity, freedom and resistance to tyranny."
+    },
+    "listening": {
+      "note": "Beethoven's only opera, about fidelity, freedom and resistance to tyranny."
+    },
+    "place": {
+      "kind": "Premiere theatre",
+      "certainty": "fairly solid",
+      "note": "Beethoven's only opera, \"Fidelio,\" premiered at the Theater an der Wien in November 1805, when Vienna had just been occupied by French troops, to a poor reception; he revised it repeatedly, and only the 1814 version succeeded. This theatre is still in operation today."
+    }
+  },
+  {
+    "id": "vienna-1806-violin-concerto",
+    "context": "Beethoven's only violin concerto premiered at the Theater an der Wien in 1806, with Franz Clement as soloist. It met an indifferent reception at the time and was only recognized decades later as one of the greatest violin concertos.",
+    "meaning": "It exchanges the force of the heroic middle period for a broad, lyrical, unhurried character: opening with four taps of the timpani, then letting the violin sing above a vast orchestra. It shows that \"heroic\" need not mean only conflict but can also be a serene and grand lyricism.",
+    "source": {
+      "summary": "Op. 61 is Beethoven's only violin concerto, premiered by Franz Clement at the Theater an der Wien in 1806; it met an indifferent reception at first but was later revered as a classic of the violin concerto repertoire."
+    },
+    "listening": {
+      "note": "The only violin concerto, a broad and lyrical middle-period masterpiece."
+    },
+    "place": {
+      "kind": "Premiere theatre",
+      "certainty": "fairly solid",
+      "note": "The sources place the premiere of the Violin Concerto in D major at the Theater an der Wien in December 1806, played by the violinist Franz Clement. The concerto was little regarded at first and only later became central to the violin literature."
+    }
+  },
+  {
+    "id": "vienna-1806-razumovsky",
+    "context": "The three \"Razumovsky\" quartets were composed in 1806, commissioned by Count Razumovsky, the Russian ambassador in Vienna, and quote Russian folk themes. They bring the scale and ambition of the heroic middle period into the string quartet.",
+    "meaning": "Compared with the earlier Op. 18, this set is longer and harder to play, and at first puzzled both performers and listeners. It shows how Beethoven advanced his language even in the most intimate chamber genre, paving the way for the later late quartets.",
+    "source": {
+      "summary": "The three \"Razumovsky\" quartets, Op. 59, were composed in 1806, commissioned by Count Razumovsky and quoting Russian themes; in scale and difficulty they far exceed the earlier Op. 18."
+    },
+    "listening": {
+      "note": "Three large works that bring the heroic middle period into the string quartet."
+    }
+  },
+  {
+    "id": "vienna-1808-symphony-5",
+    "context": "The Fifth Symphony (\"Fate\") premiered on 22 December 1808 at a marathon concert at the Theater an der Wien. Its opening four notes (short-short-short-long) are one of the most famous motifs in the history of Western music, running through the entire work.",
+    "meaning": "It writes \"from darkness to light\" as an audible structure: the tension and conflict of C minor drive forward all the way until they burst into triumph in the C major finale. It has become almost synonymous with Beethoven's spirit of \"struggling against fate\" and is the core of the heroic middle period.",
+    "source": {
+      "summary": "Op. 67, \"Fate,\" premiered at the Theater an der Wien in 1808, with its opening four-note motif running through the whole work; it writes \"from darkness to light\" as a structure and is a core work of the heroic middle period."
+    },
+    "listening": {
+      "note": "Beethoven's Fifth, \"Fate\": the most famous four-note motif, from darkness to light."
+    },
+    "place": {
+      "kind": "Premiere theatre",
+      "certainty": "fairly solid",
+      "note": "The Fifth and Sixth Symphonies both premiered at the same marathon concert of Beethoven's works at the Theater an der Wien on 22 December 1808. That night the theatre was cold and under-rehearsed, yet it introduced several future classics at once."
+    }
+  },
+  {
+    "id": "vienna-1808-symphony-6-pastoral",
+    "context": "The \"Pastoral\" Symphony premiered at the same concert as the Fifth. Beethoven gave each movement a title (such as \"Awakening of cheerful feelings on arriving in the countryside,\" \"Storm,\" \"Shepherds' song\") and stressed that it was \"more an expression of feeling than painting.\"",
+    "meaning": "In contrast to the struggle of the Fifth, the \"Pastoral\" depicts calm, gratitude and love of nature. For a man whose hearing was deteriorating, writing of country brooks, birdsong and the clearing after a storm is especially moving; it is the gentle side of the heroic years.",
+    "source": {
+      "summary": "Op. 68, the \"Pastoral,\" premiered alongside the Fifth in 1808 with titled movements; Beethoven called it more an expression of feeling than painting, with themes of nature, calm and gratitude."
+    },
+    "listening": {
+      "note": "The \"Pastoral\": nature, calm and gratitude, the gentle side of the heroic years."
+    },
+    "place": {
+      "kind": "Premiere theatre",
+      "certainty": "fairly solid",
+      "note": "The \"Pastoral\" Symphony premiered alongside the Fifth at the Theater an der Wien on 22 December 1808. Beethoven loved to walk in the countryside outside Vienna (such as around Heiligenstadt), and this experience of nature is often regarded as the inspiration for the \"Pastoral.\""
+    }
+  },
+  {
+    "id": "vienna-1809-emperor-concerto",
+    "context": "The \"Emperor\" Piano Concerto was composed in 1809-1810, while Napoleon's army was besieging and occupying Vienna. The nickname \"Emperor\" was not given by Beethoven. Because of his deteriorating hearing, it is the last piano concerto premiered by someone other than himself.",
+    "meaning": "It brings the heroic style to the summit of the concerto: a grand opening, brilliant piano writing and a stately bearing. It also marks a turning point, as Beethoven's public career as a piano virtuoso came to an end through his deafness, after which he withdrew more into composition itself.",
+    "source": {
+      "summary": "Op. 73, the \"Emperor,\" was composed in 1809-1810 while Vienna was occupied by French troops; the nickname was not given by Beethoven, and because of his deafness it is the last piano concerto he did not premiere himself."
+    },
+    "listening": {
+      "note": "The summit of the heroic-style piano concerto, and also the close of his virtuoso career."
+    }
+  },
+  {
+    "id": "vienna-1810-fur-elise",
+    "context": "\"Für Elise\" is a bagatelle in A minor, dated on the manuscript to around 1810. It was not published in Beethoven's lifetime and was only discovered and printed decades after his death; who \"Elise\" was remains unresolved to this day.",
+    "meaning": "It is one of Beethoven's most universally familiar melodies, yet utterly different from his heroic symphonies: intimate, private, almost tossed off. Including it in the journey is a reminder that the Beethoven who \"struggled against fate\" also wrote such tender little pieces.",
+    "source": {
+      "summary": "WoO 59, \"Für Elise,\" is dated on the manuscript to around 1810; unpublished in his lifetime, it was only discovered and printed decades after his death, and the identity of the dedicatee \"Elise\" remains unresolved to this day."
+    },
+    "listening": {
+      "note": "The most universally familiar little piece, a tender and private side."
+    }
+  },
+  {
+    "id": "teplitz-1812-immortal-beloved",
+    "context": "Between 1811 and 1812 Beethoven recuperated at spa towns in Bohemia and completed the Seventh Symphony. It was also in the summer of 1812, at Teplitz, that he wrote the love letter to the \"Immortal Beloved\" - a letter never sent, the identity of whose recipient remains unsolved to this day.",
+    "meaning": "This node sets work and emotion side by side: the rhythm-driven Seventh, whose finale spins in a kind of ecstasy, overlaps in the same summer with an unrealizable love. It takes the journey away from Vienna and into one of the most private and most mysterious passages of Beethoven's inner life.",
+    "source": {
+      "summary": "In the summer of 1812 at Teplitz, Beethoven wrote the \"Immortal Beloved\" love letter, whose recipient remains a mystery to this day; during the same period he completed the rhythm-driven Seventh Symphony, Op. 92."
+    },
+    "listening": {
+      "note": "The Seventh, ecstatic in rhythm, from the same period as the \"Immortal Beloved\" love letter."
+    },
+    "place": {
+      "kind": "Spa recuperation and letter-writing site",
+      "certainty": "fairly solid",
+      "note": "In the summer of 1812, at the Bohemian spa town of Teplitz (today Teplice in the Czech Republic), Beethoven wrote the famous love letter to the \"Immortal Beloved\" (Unsterbliche Geliebte); the recipient's identity remains a mystery to this day. That same year he also met Goethe here."
+    }
+  },
+  {
+    "id": "vienna-1818-hammerklavier",
+    "context": "In 1815 Beethoven's brother Caspar Carl died, and he was immediately drawn into a long legal dispute with his sister-in-law over guardianship of his nephew Karl, which ran through nearly all his later years. It was amid this turmoil that he wrote the \"Hammerklavier\" Sonata, astonishing in both length and difficulty.",
+    "meaning": "Op. 106 is a colossus among piano sonatas: extremely long, extremely difficult, ending in a vast fugue. It marks the most draining years of guardianship over his nephew and announces the arrival of the late style; by now almost wholly deaf, Beethoven pushed his music toward more abstract, more introspective heights.",
+    "source": {
+      "summary": "Op. 106, the \"Hammerklavier,\" was composed around 1817-1818, known for its length, difficulty and vast concluding fugue; it was written during the late period when Beethoven was fighting for guardianship of his nephew Karl and was nearly wholly deaf."
+    },
+    "listening": {
+      "note": "A colossus from the years of guardianship over his nephew, the beginning of the late style."
+    }
+  },
+  {
+    "id": "vienna-1823-missa-solemnis",
+    "context": "The \"Missa Solemnis\" was composed around 1819-1823, originally conceived for the installation of Beethoven's pupil and patron Archduke Rudolph as archbishop, but in the end it far exceeded the scale of any liturgical occasion. Beethoven himself regarded it as one of his most important works.",
+    "meaning": "This is a grand, demanding, intensely personal sacred work: at the head of the score he wrote \"From the heart - may it return to the heart.\" It shows how the late Beethoven wrote faith, humanity and a plea for peace into a monumental work that both belongs to the church and transcends it.",
+    "source": {
+      "summary": "Op. 123, the \"Missa Solemnis,\" was composed around 1819-1823, originally for the installation of Archduke Rudolph as archbishop, on a scale far beyond liturgical need; Beethoven regarded it as one of his most important works."
+    },
+    "listening": {
+      "note": "The most important sacred monument of the late period, \"From the heart - may it return to the heart.\""
+    }
+  },
+  {
+    "id": "vienna-1823-diabelli",
+    "context": "The publisher Diabelli invited many composers each to write a single variation on a little waltz he had written, but Beethoven alone wrote thirty-three, completing them in 1823. It is one of the most important piano works of his late period.",
+    "meaning": "Starting from an ordinary waltz, Beethoven turned the variations into an exploration of the entire keyboard world: humorous, profound, abstract, all-encompassing. It echoes the Dressler Variations at the start of his career - from the variation miniatures of childhood to exhausting in old age every possibility of a little tune through variation.",
+    "source": {
+      "summary": "Op. 120, the \"Diabelli Variations,\" was completed in 1823, with Beethoven alone writing thirty-three variations on a little waltz by Diabelli; it is one of the most important piano works of his late period."
+    },
+    "listening": {
+      "note": "Thirty-three late variations springing from a single little waltz."
+    }
+  },
+  {
+    "id": "vienna-1824-symphony-9",
+    "context": "The Ninth Symphony premiered in Vienna in 1824 and is the last symphony Beethoven completed. In the finale he introduced chorus and soloists, setting Schiller's \"Ode to Joy\" and, in a groundbreaking move, writing the human voice into a symphony. By this time he was almost completely deaf.",
+    "meaning": "This is the summit of the years of deafness and the destination of the entire journey: a man who could not hear wrote a chorus calling on all humanity to be \"brothers throughout the world.\" The humanitarian ideal of the Joseph II cantata from his Bonn youth at last converges here into the \"Ode to Joy.\"",
+    "source": {
+      "summary": "Op. 125, the \"Choral,\" premiered in 1824 and is the last symphony Beethoven completed, with the finale introducing a chorus singing Schiller's \"Ode to Joy\"; at the premiere he was already nearly wholly deaf."
+    },
+    "listening": {
+      "note": "Beethoven's Ninth, \"Choral\": the summit of the years of deafness, the \"Ode to Joy.\""
+    },
+    "place": {
+      "kind": "Premiere theatre",
+      "certainty": "fairly solid",
+      "note": "The Ninth Symphony premiered at the Kärntnertortheater in Vienna on 7 May 1824. As the story goes, the nearly wholly deaf Beethoven took part in conducting with his back to the audience, and after the performance had to be turned around by someone before he could see the whole house rise in applause. This theatre no longer exists."
+    }
+  },
+  {
+    "id": "vienna-1826-quartet-131",
+    "context": "Op. 131, composed in 1826, is one of Beethoven's late string quartets, consisting of seven movements played without a break. It was also in the summer of 1826 that his nephew Karl, unable to bear the pressure of guardianship, attempted suicide, and this family crisis overshadowed his final years.",
+    "meaning": "The late quartets are regarded as Beethoven's most profound and most private music; reportedly he himself especially valued Op. 131. Setting it beside Karl's crisis reveals how the composer, in his loneliest and most wounded circumstances, wrote his most inward and most transcendent works.",
+    "source": {
+      "summary": "Op. 131, composed in 1826 and consisting of seven uninterrupted movements, is one of the most revered of Beethoven's late string quartets; that same summer his nephew Karl attempted suicide."
+    },
+    "listening": {
+      "note": "A late string quartet, from the same year as the family crisis with his nephew Karl."
+    }
+  },
+  {
+    "id": "vienna-1827-quartet-135-death",
+    "context": "Op. 135, composed in 1826, is the last string quartet Beethoven completed and the last large-scale work he finished. In the final movement he wrote the famous inscription \"Muss es sein? Es muss sein!\" (Must it be? It must be!). He died in Vienna the following March.",
+    "meaning": "Compared with the preceding late quartets, Op. 135 is more concise, almost unhurried, like a farewell. Placing it at his place of death, the Schwarzspanierhaus, brings the whole journey to a close here: from the childhood variations of Bonn to that calm \"It must be\" before his death in Vienna.",
+    "source": {
+      "summary": "Op. 135, composed in 1826, is the last string quartet Beethoven completed, with the final movement inscribed \"Muss es sein? Es muss sein!\"; he died in Vienna in March 1827."
+    },
+    "listening": {
+      "note": "The last large-scale work he completed, the farewell of \"It must be!\""
+    },
+    "place": {
+      "kind": "Late residence and place of death",
+      "certainty": "fairly solid",
+      "note": "Beethoven last lived in the Schwarzspanierhaus in Vienna and died there on 26 March 1827. A large crowd of Viennese citizens accompanied his funeral. This building no longer exists; the page marks its approximate location."
+    }
+  }
+]

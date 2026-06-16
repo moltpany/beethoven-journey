@@ -1004,3 +1004,18 @@ html[data-theme="dark"] .marker-cluster-large div {
     grid-template-columns: 58px 1fr;
   }
 }
+
+/* Cross-links to sibling sites and the language toggle (added for the bilingual hub navigation). */
+.nav-links a.cross-link {
+  color: rgba(255, 248, 234, 0.7);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.nav-links a.cross-link:hover,
+.nav-links a.cross-link:focus-visible {
+  color: rgba(255, 248, 234, 0.96);
+  text-decoration: underline;
+}
+.lang-toggle {
+  min-width: 44px;
+}
