@@ -139,15 +139,15 @@ window.BEETHOVEN_JOURNEY_DATA = [
       "kind": "赞助人沙龙与出版",
       "certainty": "有争议",
       "note": "Op. 1 题献给贝多芬的早期赞助人 Lichnowsky 亲王，按传记常说曾在其沙龙试奏。具体演出房间证据不完全稳固，页面把它标为亲王沙龙的关联语境，而非确切首演地点。",
-      "lat": 48.2082,
-      "lng": 16.3738,
+      "lat": 48.21,
+      "lng": 16.365,
       "source": {
         "label": "Wikipedia: Piano Trios, Op. 1 (Beethoven)",
         "url": "https://en.wikipedia.org/wiki/Piano_Trios,_Op._1_(Beethoven)"
       }
     },
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.21,
+    "lng": 16.365,
     "work": "Three Piano Trios",
     "catalogue": "Op. 1",
     "genre": "Chamber",
@@ -176,8 +176,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1798,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2095,
+    "lng": 16.368,
     "work": "Piano Sonata No. 8 \"Pathétique\"",
     "catalogue": "Op. 13",
     "genre": "Sonata",
@@ -199,7 +199,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "arrival-vienna"
-    ]
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Lichnowsky 亲王语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期住所与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《悲怆》约 1798 年作于维也纳，题献给早期赞助人 Lichnowsky 亲王，贝多芬此阶段常活动于其圈子。具体创作或首演房间无确证，此处作为维也纳内城城市级节点，标示题献与早期赞助语境。",
+      "lat": 48.2095,
+      "lng": 16.368,
+      "source": {
+        "label": "Wikipedia: Piano Sonata No. 8 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._8_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1800-symphony-1",
@@ -249,8 +262,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1801,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.211,
+    "lng": 16.3692,
     "work": "Piano Sonata No. 14 \"Moonlight\" (Quasi una fantasia)",
     "catalogue": "Op. 27 No. 2",
     "genre": "Sonata",
@@ -272,15 +285,28 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "arrival-vienna"
-    ]
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Giulietta Guicciardi 语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期创作与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《月光》1801 年作于维也纳，题献给贝多芬的学生 Giulietta Guicciardi。具体创作地点无确证，此处取维也纳内城作为城市级节点，标示题献与早期维也纳语境。",
+      "lat": 48.211,
+      "lng": 16.3692,
+      "source": {
+        "label": "Wikipedia: Piano Sonata No. 14 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1801-spring-sonata",
     "year": 1801,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2086,
+    "lng": 16.3708,
     "work": "Violin Sonata No. 5 in F major \"Spring\"",
     "catalogue": "Op. 24",
     "genre": "Sonata",
@@ -302,7 +328,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "arrival-vienna"
-    ]
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Moritz von Fries 伯爵语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期创作与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《春天》约 1800–1801 年作于维也纳，题献给赞助人 Moritz von Fries 伯爵。具体创作房间无确证，此处取维也纳内城作为城市级节点。",
+      "lat": 48.2086,
+      "lng": 16.3708,
+      "source": {
+        "label": "Wikipedia: Violin Sonata No. 5 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Violin_Sonata_No._5_(Beethoven)"
+      }
+    }
   },
   {
     "id": "heiligenstadt-1802-testament-symphony2",
@@ -396,8 +435,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1804,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2122,
+    "lng": 16.3619,
     "work": "Piano Sonata No. 21 \"Waldstein\"",
     "catalogue": "Op. 53",
     "genre": "Sonata",
@@ -419,15 +458,28 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "heroic-period"
-    ]
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "中期创作期住所",
+      "certainty": "中",
+      "note": "贝多芬约从 1804 年起多次入住 Pasqualati 伯爵在 Mölker Bastei 的公寓，并在那里创作了中期大量作品。《华尔斯坦》作于 1804 年，与他这一阶段的维也纳住所相联；该楼今为贝多芬纪念馆之一。具体房间不确证，取其常居住所作为创作期节点。",
+      "lat": 48.2122,
+      "lng": 16.3619,
+      "source": {
+        "label": "Wikipedia: Pasqualatihaus",
+        "url": "https://en.wikipedia.org/wiki/Pasqualatihaus"
+      }
+    }
   },
   {
     "id": "vienna-1805-appassionata",
     "year": 1805,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2124,
+    "lng": 16.3622,
     "work": "Piano Sonata No. 23 \"Appassionata\"",
     "catalogue": "Op. 57",
     "genre": "Sonata",
@@ -449,7 +501,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "heroic-period"
-    ]
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "中期创作期住所",
+      "certainty": "中",
+      "note": "《热情》约 1804–1805 年作于贝多芬中期，与他在 Pasqualati 之家居住的时期相联。具体房间不确证，取其当时常居住所作为创作期节点。",
+      "lat": 48.2124,
+      "lng": 16.3622,
+      "source": {
+        "label": "Wikipedia: Pasqualatihaus",
+        "url": "https://en.wikipedia.org/wiki/Pasqualatihaus"
+      }
+    }
   },
   {
     "id": "vienna-1805-fidelio",
@@ -542,8 +607,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1806,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2074,
+    "lng": 16.399,
     "work": "String Quartets \"Razumovsky\"",
     "catalogue": "Op. 59",
     "genre": "Chamber",
@@ -565,7 +630,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "heroic-period"
-    ]
+    ],
+    "place": {
+      "name": "Razumovsky 宫（Palais Razumofsky）",
+      "address": "Rasumofskygasse 23–25, Landstraße, Vienna",
+      "kind": "题献者宫邸与驻邸四重奏",
+      "certainty": "中",
+      "note": "Op. 59 三首四重奏题献给俄国驻维也纳大使 Razumovsky 伯爵，其宫邸常驻 Schuppanzigh 四重奏团，是这批作品最直接的关联地点。",
+      "lat": 48.2074,
+      "lng": 16.399,
+      "source": {
+        "label": "Wikipedia: Razumovsky Quartets",
+        "url": "https://en.wikipedia.org/wiki/Razumovsky_Quartets"
+      }
+    }
   },
   {
     "id": "vienna-1808-symphony-5",
@@ -658,8 +736,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1809,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2098,
+    "lng": 16.3642,
     "work": "Piano Concerto No. 5 \"Emperor\"",
     "catalogue": "Op. 73",
     "genre": "Concerto",
@@ -681,15 +759,28 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "heroic-period"
-    ]
+    ],
+    "place": {
+      "name": "维也纳（1809 年法军围城语境）",
+      "address": "Vienna",
+      "kind": "创作时局语境",
+      "certainty": "城市级（低）",
+      "note": "《皇帝》协奏曲 1809–1810 年作于维也纳，正值拿破仑军队炮击并占领该城；据载贝多芬曾以枕掩耳躲入地窖。具体创作住所无单一确证，此处作为维也纳城市级节点标示这段时局。",
+      "lat": 48.2098,
+      "lng": 16.3642,
+      "source": {
+        "label": "Wikipedia: Piano Concerto No. 5 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Concerto_No._5_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1810-fur-elise",
     "year": 1810,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.212,
+    "lng": 16.3616,
     "work": "Bagatelle in A minor \"Für Elise\"",
     "catalogue": "WoO 59",
     "genre": "Bagatelle",
@@ -711,7 +802,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "heroic-period"
-    ]
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "创作期住所",
+      "certainty": "有争议",
+      "note": "《致爱丽丝》手稿标注约 1810 年，正值贝多芬在 Pasqualati 之家居住的时期；作品生前未出版、题献对象与确切创作地点均无定论，此处取其当时住所作为关联节点。",
+      "lat": 48.212,
+      "lng": 16.3616,
+      "source": {
+        "label": "Wikipedia: Für Elise",
+        "url": "https://en.wikipedia.org/wiki/F%C3%BCr_Elise"
+      }
+    }
   },
   {
     "id": "teplitz-1812-immortal-beloved",
@@ -761,8 +865,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1818,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.0863,
+    "lng": 16.289,
     "work": "Piano Sonata No. 29 \"Hammerklavier\"",
     "catalogue": "Op. 106",
     "genre": "Sonata",
@@ -785,15 +889,28 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "collections": [
       "nephew-karl",
       "late-period"
-    ]
+    ],
+    "place": {
+      "name": "默德林（Mödling，维也纳近郊）",
+      "address": "Mödling, Lower Austria",
+      "kind": "夏季创作地",
+      "certainty": "中",
+      "note": "贝多芬 1818 年前后的多个夏天在维也纳近郊的默德林避暑作曲，《槌子键琴》主要写于这段时期；它也与他争夺侄子卡尔监护权的岁月、题献给 Rudolph 大公相联。",
+      "lat": 48.0863,
+      "lng": 16.289,
+      "source": {
+        "label": "Wikipedia: Mödling",
+        "url": "https://en.wikipedia.org/wiki/M%C3%B6dling"
+      }
+    }
   },
   {
     "id": "vienna-1823-missa-solemnis",
     "year": 1823,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.0866,
+    "lng": 16.2902,
     "work": "Missa Solemnis in D major",
     "catalogue": "Op. 123",
     "genre": "Sacred",
@@ -815,15 +932,28 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "late-period"
-    ]
+    ],
+    "place": {
+      "name": "默德林与维也纳（为 Rudolph 大公而作）",
+      "address": "Mödling & Vienna",
+      "kind": "长期创作地与委约语境",
+      "certainty": "中",
+      "note": "《庄严弥撒》约 1819–1823 年作于维也纳与近郊默德林，原为贝多芬的学生兼赞助人 Rudolph 大公就任大主教而起意。创作横跨数年、多处住所，此处取默德林夏季作曲地作为代表节点。",
+      "lat": 48.0866,
+      "lng": 16.2902,
+      "source": {
+        "label": "Wikipedia: Missa solemnis (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Missa_solemnis_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1823-diabelli",
     "year": 1823,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.209,
+    "lng": 16.3712,
     "work": "Diabelli Variations",
     "catalogue": "Op. 120",
     "genre": "Variations",
@@ -845,7 +975,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     },
     "collections": [
       "late-period"
-    ]
+    ],
+    "place": {
+      "name": "维也纳（出版商 Anton Diabelli 委约）",
+      "address": "Vienna",
+      "kind": "委约与出版语境",
+      "certainty": "城市级（低）",
+      "note": "《迪亚贝利变奏曲》源于维也纳出版商 Anton Diabelli 的邀约——他请众多作曲家就自己的一首圆舞曲各写一段变奏，贝多芬独自写成三十三段，1823 年完成。具体创作住所无单一确证，此处取维也纳城市级节点标示出版语境。",
+      "lat": 48.209,
+      "lng": 16.3712,
+      "source": {
+        "label": "Wikipedia: Diabelli Variations",
+        "url": "https://en.wikipedia.org/wiki/Diabelli_Variations"
+      }
+    }
   },
   {
     "id": "vienna-1824-symphony-9",
@@ -895,8 +1038,8 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "year": 1826,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2168,
+    "lng": 16.359,
     "work": "String Quartet No. 14 in C-sharp minor",
     "catalogue": "Op. 131",
     "genre": "Chamber",
@@ -919,7 +1062,20 @@ window.BEETHOVEN_JOURNEY_DATA = [
     "collections": [
       "late-period",
       "nephew-karl"
-    ]
+    ],
+    "place": {
+      "name": "Schwarzspanierhaus（黑西班牙人之屋）",
+      "address": "Schwarzspanierstraße 15, Vienna",
+      "kind": "晚年住所",
+      "certainty": "中",
+      "note": "贝多芬 1825 年秋起住在 Schwarzspanierhaus 直到 1827 年去世；Op. 131 作于 1826 年这段晚期居所时期。也正是 1826 年夏，其侄卡尔试图自杀。该建筑今已不存，页面用其大致位置标注。",
+      "lat": 48.2168,
+      "lng": 16.359,
+      "source": {
+        "label": "Wikipedia: String Quartet No. 14 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/String_Quartet_No._14_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1827-quartet-135-death",

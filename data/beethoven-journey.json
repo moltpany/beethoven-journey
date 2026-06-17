@@ -38,7 +38,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Dressler%20Variations%20WoO%2063",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Dressler%20Variations%20WoO%2063"
     },
-    "collections": ["bonn-youth"]
+    "collections": [
+      "bonn-youth"
+    ]
   },
   {
     "id": "bonn-1783-electoral-sonatas",
@@ -51,14 +53,14 @@
       "kind": "宫廷任职与创作环境",
       "certainty": "较稳",
       "note": "波恩是科隆选帝侯的驻地，贝多芬少年时在宫廷乐队担任管风琴师与中提琴手。WoO 47 题献给选帝侯 Maximilian Friedrich，页面把它标到宫廷语境，而不是某个具体房间。",
-      "lat": 50.7340,
+      "lat": 50.734,
       "lng": 7.1037,
       "source": {
         "label": "Beethoven-Haus Bonn: Beethoven in Bonn",
         "url": "https://www.beethoven.de/en/"
       }
     },
-    "lat": 50.7340,
+    "lat": 50.734,
     "lng": 7.1037,
     "work": "Three Piano Sonatas \"Kurfürstensonaten\"",
     "catalogue": "WoO 47",
@@ -79,7 +81,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Electoral%20Sonatas%20WoO%2047",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Electoral%20Sonatas%20WoO%2047"
     },
-    "collections": ["bonn-youth"]
+    "collections": [
+      "bonn-youth"
+    ]
   },
   {
     "id": "bonn-1790-joseph-cantata",
@@ -92,7 +96,7 @@
       "kind": "委约与创作环境",
       "certainty": "较稳",
       "note": "这部康塔塔由波恩的阅读社团（Lesegesellschaft）委约，悼念 1790 年初去世的皇帝 Joseph II；据资料当时似乎并未实际演出。页面把它标在波恩，作为离开故乡前最重要的大型声乐作品。",
-      "lat": 50.7340,
+      "lat": 50.734,
       "lng": 7.1037,
       "source": {
         "label": "Wikipedia: Cantata on the Death of Emperor Joseph II",
@@ -120,7 +124,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Cantata%20Joseph%20II%20WoO%2087",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Cantata%20Joseph%20II%20WoO%2087"
     },
-    "collections": ["bonn-youth"]
+    "collections": [
+      "bonn-youth"
+    ]
   },
   {
     "id": "vienna-1795-piano-trios-op1",
@@ -133,15 +139,15 @@
       "kind": "赞助人沙龙与出版",
       "certainty": "有争议",
       "note": "Op. 1 题献给贝多芬的早期赞助人 Lichnowsky 亲王，按传记常说曾在其沙龙试奏。具体演出房间证据不完全稳固，页面把它标为亲王沙龙的关联语境，而非确切首演地点。",
-      "lat": 48.2082,
-      "lng": 16.3738,
+      "lat": 48.21,
+      "lng": 16.365,
       "source": {
         "label": "Wikipedia: Piano Trios, Op. 1 (Beethoven)",
         "url": "https://en.wikipedia.org/wiki/Piano_Trios,_Op._1_(Beethoven)"
       }
     },
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.21,
+    "lng": 16.365,
     "work": "Three Piano Trios",
     "catalogue": "Op. 1",
     "genre": "Chamber",
@@ -161,15 +167,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Piano%20Trios%20Op%201",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Piano%20Trios%20Op%201"
     },
-    "collections": ["arrival-vienna"]
+    "collections": [
+      "arrival-vienna"
+    ]
   },
   {
     "id": "vienna-1798-pathetique",
     "year": 1798,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2095,
+    "lng": 16.368,
     "work": "Piano Sonata No. 8 \"Pathétique\"",
     "catalogue": "Op. 13",
     "genre": "Sonata",
@@ -189,7 +197,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Pathetique%20Sonata%20Op%2013",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Pathetique%20Sonata%20Op%2013"
     },
-    "collections": ["arrival-vienna"]
+    "collections": [
+      "arrival-vienna"
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Lichnowsky 亲王语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期住所与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《悲怆》约 1798 年作于维也纳，题献给早期赞助人 Lichnowsky 亲王，贝多芬此阶段常活动于其圈子。具体创作或首演房间无确证，此处作为维也纳内城城市级节点，标示题献与早期赞助语境。",
+      "lat": 48.2095,
+      "lng": 16.368,
+      "source": {
+        "label": "Wikipedia: Piano Sonata No. 8 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._8_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1800-symphony-1",
@@ -230,15 +253,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Symphony%20No%201%20Op%2021",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Symphony%20No%201%20Op%2021"
     },
-    "collections": ["arrival-vienna"]
+    "collections": [
+      "arrival-vienna"
+    ]
   },
   {
     "id": "vienna-1801-moonlight",
     "year": 1801,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.211,
+    "lng": 16.3692,
     "work": "Piano Sonata No. 14 \"Moonlight\" (Quasi una fantasia)",
     "catalogue": "Op. 27 No. 2",
     "genre": "Sonata",
@@ -258,15 +283,30 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Moonlight%20Sonata",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Moonlight%20Sonata"
     },
-    "collections": ["arrival-vienna"]
+    "collections": [
+      "arrival-vienna"
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Giulietta Guicciardi 语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期创作与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《月光》1801 年作于维也纳，题献给贝多芬的学生 Giulietta Guicciardi。具体创作地点无确证，此处取维也纳内城作为城市级节点，标示题献与早期维也纳语境。",
+      "lat": 48.211,
+      "lng": 16.3692,
+      "source": {
+        "label": "Wikipedia: Piano Sonata No. 14 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Sonata_No._14_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1801-spring-sonata",
     "year": 1801,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2086,
+    "lng": 16.3708,
     "work": "Violin Sonata No. 5 in F major \"Spring\"",
     "catalogue": "Op. 24",
     "genre": "Sonata",
@@ -286,7 +326,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Spring%20Sonata%20Op%2024",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Spring%20Sonata%20Op%2024"
     },
-    "collections": ["arrival-vienna"]
+    "collections": [
+      "arrival-vienna"
+    ],
+    "place": {
+      "name": "维也纳内城（题献者 Moritz von Fries 伯爵语境）",
+      "address": "Innere Stadt, Vienna",
+      "kind": "早期创作与题献语境",
+      "certainty": "城市级（低）",
+      "note": "《春天》约 1800–1801 年作于维也纳，题献给赞助人 Moritz von Fries 伯爵。具体创作房间无确证，此处取维也纳内城作为城市级节点。",
+      "lat": 48.2086,
+      "lng": 16.3708,
+      "source": {
+        "label": "Wikipedia: Violin Sonata No. 5 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Violin_Sonata_No._5_(Beethoven)"
+      }
+    }
   },
   {
     "id": "heiligenstadt-1802-testament-symphony2",
@@ -327,7 +382,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Symphony%20No%202%20Op%2036",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Symphony%20No%202%20Op%2036"
     },
-    "collections": ["deafness-heiligenstadt"]
+    "collections": [
+      "deafness-heiligenstadt"
+    ]
   },
   {
     "id": "vienna-1804-eroica",
@@ -340,14 +397,14 @@
       "kind": "私人首演地点",
       "certainty": "较稳",
       "note": "资料常说《英雄交响曲》最早在贝多芬的赞助人 Lobkowitz 亲王的宫邸里私下演出，之后才公开首演。题献最终也归于 Lobkowitz 亲王。",
-      "lat": 48.2050,
+      "lat": 48.205,
       "lng": 16.3686,
       "source": {
         "label": "Wikipedia: Symphony No. 3 (Beethoven)",
         "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)"
       }
     },
-    "lat": 48.2050,
+    "lat": 48.205,
     "lng": 16.3686,
     "work": "Symphony No. 3 \"Eroica\"",
     "catalogue": "Op. 55",
@@ -368,15 +425,18 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Eroica%20Symphony%20No%203",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Eroica%20Symphony%20No%203"
     },
-    "collections": ["heroic-period", "deafness-heiligenstadt"]
+    "collections": [
+      "heroic-period",
+      "deafness-heiligenstadt"
+    ]
   },
   {
     "id": "vienna-1804-waldstein",
     "year": 1804,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2122,
+    "lng": 16.3619,
     "work": "Piano Sonata No. 21 \"Waldstein\"",
     "catalogue": "Op. 53",
     "genre": "Sonata",
@@ -396,15 +456,30 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Waldstein%20Sonata%20Op%2053",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Waldstein%20Sonata%20Op%2053"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "中期创作期住所",
+      "certainty": "中",
+      "note": "贝多芬约从 1804 年起多次入住 Pasqualati 伯爵在 Mölker Bastei 的公寓，并在那里创作了中期大量作品。《华尔斯坦》作于 1804 年，与他这一阶段的维也纳住所相联；该楼今为贝多芬纪念馆之一。具体房间不确证，取其常居住所作为创作期节点。",
+      "lat": 48.2122,
+      "lng": 16.3619,
+      "source": {
+        "label": "Wikipedia: Pasqualatihaus",
+        "url": "https://en.wikipedia.org/wiki/Pasqualatihaus"
+      }
+    }
   },
   {
     "id": "vienna-1805-appassionata",
     "year": 1805,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2124,
+    "lng": 16.3622,
     "work": "Piano Sonata No. 23 \"Appassionata\"",
     "catalogue": "Op. 57",
     "genre": "Sonata",
@@ -424,7 +499,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Appassionata%20Sonata%20Op%2057",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Appassionata%20Sonata%20Op%2057"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "中期创作期住所",
+      "certainty": "中",
+      "note": "《热情》约 1804–1805 年作于贝多芬中期，与他在 Pasqualati 之家居住的时期相联。具体房间不确证，取其当时常居住所作为创作期节点。",
+      "lat": 48.2124,
+      "lng": 16.3622,
+      "source": {
+        "label": "Wikipedia: Pasqualatihaus",
+        "url": "https://en.wikipedia.org/wiki/Pasqualatihaus"
+      }
+    }
   },
   {
     "id": "vienna-1805-fidelio",
@@ -465,7 +555,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Fidelio%20Op%2072",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Fidelio%20Op%2072"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ]
   },
   {
     "id": "vienna-1806-violin-concerto",
@@ -506,15 +598,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Violin%20Concerto%20Op%2061",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Violin%20Concerto%20Op%2061"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ]
   },
   {
     "id": "vienna-1806-razumovsky",
     "year": 1806,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2074,
+    "lng": 16.399,
     "work": "String Quartets \"Razumovsky\"",
     "catalogue": "Op. 59",
     "genre": "Chamber",
@@ -534,7 +628,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Razumovsky%20Quartets%20Op%2059",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Razumovsky%20Quartets%20Op%2059"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ],
+    "place": {
+      "name": "Razumovsky 宫（Palais Razumofsky）",
+      "address": "Rasumofskygasse 23–25, Landstraße, Vienna",
+      "kind": "题献者宫邸与驻邸四重奏",
+      "certainty": "中",
+      "note": "Op. 59 三首四重奏题献给俄国驻维也纳大使 Razumovsky 伯爵，其宫邸常驻 Schuppanzigh 四重奏团，是这批作品最直接的关联地点。",
+      "lat": 48.2074,
+      "lng": 16.399,
+      "source": {
+        "label": "Wikipedia: Razumovsky Quartets",
+        "url": "https://en.wikipedia.org/wiki/Razumovsky_Quartets"
+      }
+    }
   },
   {
     "id": "vienna-1808-symphony-5",
@@ -575,7 +684,9 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Symphony%20No%205%20Op%2067",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Symphony%20No%205%20Op%2067"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ]
   },
   {
     "id": "vienna-1808-symphony-6-pastoral",
@@ -616,15 +727,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Pastoral%20Symphony%20Op%2068",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Pastoral%20Symphony%20Op%2068"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ]
   },
   {
     "id": "vienna-1809-emperor-concerto",
     "year": 1809,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2098,
+    "lng": 16.3642,
     "work": "Piano Concerto No. 5 \"Emperor\"",
     "catalogue": "Op. 73",
     "genre": "Concerto",
@@ -644,15 +757,30 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Emperor%20Concerto%20Op%2073",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Emperor%20Concerto%20Op%2073"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ],
+    "place": {
+      "name": "维也纳（1809 年法军围城语境）",
+      "address": "Vienna",
+      "kind": "创作时局语境",
+      "certainty": "城市级（低）",
+      "note": "《皇帝》协奏曲 1809–1810 年作于维也纳，正值拿破仑军队炮击并占领该城；据载贝多芬曾以枕掩耳躲入地窖。具体创作住所无单一确证，此处作为维也纳城市级节点标示这段时局。",
+      "lat": 48.2098,
+      "lng": 16.3642,
+      "source": {
+        "label": "Wikipedia: Piano Concerto No. 5 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Piano_Concerto_No._5_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1810-fur-elise",
     "year": 1810,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.212,
+    "lng": 16.3616,
     "work": "Bagatelle in A minor \"Für Elise\"",
     "catalogue": "WoO 59",
     "genre": "Bagatelle",
@@ -672,7 +800,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Fur%20Elise",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Fur%20Elise"
     },
-    "collections": ["heroic-period"]
+    "collections": [
+      "heroic-period"
+    ],
+    "place": {
+      "name": "Pasqualati 之家（Mölker Bastei 8）",
+      "address": "Mölker Bastei 8, Vienna",
+      "kind": "创作期住所",
+      "certainty": "有争议",
+      "note": "《致爱丽丝》手稿标注约 1810 年，正值贝多芬在 Pasqualati 之家居住的时期；作品生前未出版、题献对象与确切创作地点均无定论，此处取其当时住所作为关联节点。",
+      "lat": 48.212,
+      "lng": 16.3616,
+      "source": {
+        "label": "Wikipedia: Für Elise",
+        "url": "https://en.wikipedia.org/wiki/F%C3%BCr_Elise"
+      }
+    }
   },
   {
     "id": "teplitz-1812-immortal-beloved",
@@ -713,15 +856,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Symphony%20No%207%20Op%2092",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Symphony%20No%207%20Op%2092"
     },
-    "collections": ["immortal-beloved"]
+    "collections": [
+      "immortal-beloved"
+    ]
   },
   {
     "id": "vienna-1818-hammerklavier",
     "year": 1818,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.0863,
+    "lng": 16.289,
     "work": "Piano Sonata No. 29 \"Hammerklavier\"",
     "catalogue": "Op. 106",
     "genre": "Sonata",
@@ -741,15 +886,31 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Hammerklavier%20Sonata%20Op%20106",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Hammerklavier%20Sonata%20Op%20106"
     },
-    "collections": ["nephew-karl", "late-period"]
+    "collections": [
+      "nephew-karl",
+      "late-period"
+    ],
+    "place": {
+      "name": "默德林（Mödling，维也纳近郊）",
+      "address": "Mödling, Lower Austria",
+      "kind": "夏季创作地",
+      "certainty": "中",
+      "note": "贝多芬 1818 年前后的多个夏天在维也纳近郊的默德林避暑作曲，《槌子键琴》主要写于这段时期；它也与他争夺侄子卡尔监护权的岁月、题献给 Rudolph 大公相联。",
+      "lat": 48.0863,
+      "lng": 16.289,
+      "source": {
+        "label": "Wikipedia: Mödling",
+        "url": "https://en.wikipedia.org/wiki/M%C3%B6dling"
+      }
+    }
   },
   {
     "id": "vienna-1823-missa-solemnis",
     "year": 1823,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.0866,
+    "lng": 16.2902,
     "work": "Missa Solemnis in D major",
     "catalogue": "Op. 123",
     "genre": "Sacred",
@@ -769,15 +930,30 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Missa%20Solemnis%20Op%20123",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Missa%20Solemnis%20Op%20123"
     },
-    "collections": ["late-period"]
+    "collections": [
+      "late-period"
+    ],
+    "place": {
+      "name": "默德林与维也纳（为 Rudolph 大公而作）",
+      "address": "Mödling & Vienna",
+      "kind": "长期创作地与委约语境",
+      "certainty": "中",
+      "note": "《庄严弥撒》约 1819–1823 年作于维也纳与近郊默德林，原为贝多芬的学生兼赞助人 Rudolph 大公就任大主教而起意。创作横跨数年、多处住所，此处取默德林夏季作曲地作为代表节点。",
+      "lat": 48.0866,
+      "lng": 16.2902,
+      "source": {
+        "label": "Wikipedia: Missa solemnis (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/Missa_solemnis_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1823-diabelli",
     "year": 1823,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.209,
+    "lng": 16.3712,
     "work": "Diabelli Variations",
     "catalogue": "Op. 120",
     "genre": "Variations",
@@ -797,7 +973,22 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Diabelli%20Variations%20Op%20120",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Diabelli%20Variations%20Op%20120"
     },
-    "collections": ["late-period"]
+    "collections": [
+      "late-period"
+    ],
+    "place": {
+      "name": "维也纳（出版商 Anton Diabelli 委约）",
+      "address": "Vienna",
+      "kind": "委约与出版语境",
+      "certainty": "城市级（低）",
+      "note": "《迪亚贝利变奏曲》源于维也纳出版商 Anton Diabelli 的邀约——他请众多作曲家就自己的一首圆舞曲各写一段变奏，贝多芬独自写成三十三段，1823 年完成。具体创作住所无单一确证，此处取维也纳城市级节点标示出版语境。",
+      "lat": 48.209,
+      "lng": 16.3712,
+      "source": {
+        "label": "Wikipedia: Diabelli Variations",
+        "url": "https://en.wikipedia.org/wiki/Diabelli_Variations"
+      }
+    }
   },
   {
     "id": "vienna-1824-symphony-9",
@@ -838,15 +1029,17 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20Symphony%20No%209%20Op%20125",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20Symphony%20No%209%20Op%20125"
     },
-    "collections": ["late-period"]
+    "collections": [
+      "late-period"
+    ]
   },
   {
     "id": "vienna-1826-quartet-131",
     "year": 1826,
     "city": "Vienna",
     "country": "Austria",
-    "lat": 48.2082,
-    "lng": 16.3738,
+    "lat": 48.2168,
+    "lng": 16.359,
     "work": "String Quartet No. 14 in C-sharp minor",
     "catalogue": "Op. 131",
     "genre": "Chamber",
@@ -866,7 +1059,23 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20String%20Quartet%20Op%20131",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20String%20Quartet%20Op%20131"
     },
-    "collections": ["late-period", "nephew-karl"]
+    "collections": [
+      "late-period",
+      "nephew-karl"
+    ],
+    "place": {
+      "name": "Schwarzspanierhaus（黑西班牙人之屋）",
+      "address": "Schwarzspanierstraße 15, Vienna",
+      "kind": "晚年住所",
+      "certainty": "中",
+      "note": "贝多芬 1825 年秋起住在 Schwarzspanierhaus 直到 1827 年去世；Op. 131 作于 1826 年这段晚期居所时期。也正是 1826 年夏，其侄卡尔试图自杀。该建筑今已不存，页面用其大致位置标注。",
+      "lat": 48.2168,
+      "lng": 16.359,
+      "source": {
+        "label": "Wikipedia: String Quartet No. 14 (Beethoven)",
+        "url": "https://en.wikipedia.org/wiki/String_Quartet_No._14_(Beethoven)"
+      }
+    }
   },
   {
     "id": "vienna-1827-quartet-135-death",
@@ -880,14 +1089,14 @@
       "certainty": "较稳",
       "note": "贝多芬最后住在维也纳的 Schwarzspanierhaus，并于 1827 年 3 月 26 日在此去世。葬礼有大批维也纳市民送行。这座建筑今已不存，页面用其大致位置标注。",
       "lat": 48.2169,
-      "lng": 16.3590,
+      "lng": 16.359,
       "source": {
         "label": "Wikipedia: Ludwig van Beethoven",
         "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
       }
     },
     "lat": 48.2169,
-    "lng": 16.3590,
+    "lng": 16.359,
     "work": "String Quartet No. 16 in F major",
     "catalogue": "Op. 135",
     "genre": "Chamber",
@@ -907,6 +1116,8 @@
       "appleMusicSearch": "https://music.apple.com/search?term=Beethoven%20String%20Quartet%20Op%20135",
       "spotifySearch": "https://open.spotify.com/search/Beethoven%20String%20Quartet%20Op%20135"
     },
-    "collections": ["late-period"]
+    "collections": [
+      "late-period"
+    ]
   }
 ]

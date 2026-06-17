@@ -72,6 +72,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "A representative piano sonata from before the deafness, opening with a dramatic slow introduction."
+    },
+    "place": {
+      "kind": "Early-Vienna residence & dedication context",
+      "certainty": "city-level (low)",
+      "note": "Op. 13 was written around 1798 in Vienna and dedicated to his early patron Prince Lichnowsky, whose circle Beethoven moved in at this stage. No specific composition or premiere room is documented, so this is a city-level node in the Inner City marking the dedication and early-patronage context."
     }
   },
   {
@@ -99,6 +104,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "One of the most famous piano sonatas, with a quiet, melancholy first movement."
+    },
+    "place": {
+      "kind": "Early composition & dedication context",
+      "certainty": "city-level (low)",
+      "note": "Op. 27 No. 2 was written in 1801 in Vienna and dedicated to Beethoven's pupil Giulietta Guicciardi. No specific composition site is documented, so this is a city-level Inner-City node marking the dedication and early-Vienna context."
     }
   },
   {
@@ -110,6 +120,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "Scored for violin and piano; the opening melody is bright and songful, making it one of the most beloved violin sonatas."
+    },
+    "place": {
+      "kind": "Early composition & dedication context",
+      "certainty": "city-level (low)",
+      "note": "Op. 24 was written around 1800–1801 in Vienna and dedicated to his patron Count Moritz von Fries. No specific composition room is documented, so this is a city-level Inner-City node."
     }
   },
   {
@@ -153,6 +168,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "A virtuosic sonata that brings the energy of the heroic middle period into the piano."
+    },
+    "place": {
+      "kind": "Middle-period residence",
+      "certainty": "medium",
+      "note": "From around 1804 Beethoven lodged repeatedly in Count Pasqualati's apartment on the Mölker Bastei and composed many middle-period works there. The Waldstein (1804) belongs to this Vienna-residence phase; the building is now one of the Beethoven memorial museums. The exact room is unverified, so this anchors to his usual residence of the period."
     }
   },
   {
@@ -164,6 +184,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "The most intense piano sonata of the middle period, an inner storm."
+    },
+    "place": {
+      "kind": "Middle-period residence",
+      "certainty": "medium",
+      "note": "The Appassionata (c. 1804–1805) belongs to Beethoven's middle period and to his Pasqualati-house residence phase. The exact room is unverified, so this anchors to his usual residence of the time."
     }
   },
   {
@@ -207,6 +232,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "Three large works that bring the heroic middle period into the string quartet."
+    },
+    "place": {
+      "kind": "Dedicatee's palace & resident quartet",
+      "certainty": "medium",
+      "note": "The three Op. 59 quartets are dedicated to Count Razumovsky, the Russian ambassador in Vienna, whose palace housed the resident Schuppanzigh Quartet — the most direct location associated with these works."
     }
   },
   {
@@ -250,6 +280,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "The summit of the heroic-style piano concerto, and also the close of his virtuoso career."
+    },
+    "place": {
+      "kind": "Wartime composition context",
+      "certainty": "city-level (low)",
+      "note": "The Emperor Concerto was written in 1809–1810 in Vienna while Napoleon's army bombarded and occupied the city; Beethoven reportedly sheltered in a cellar with pillows over his ears. No single composition address is documented, so this is a city-level node marking the wartime context."
     }
   },
   {
@@ -261,6 +296,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "The most universally familiar little piece, a tender and private side."
+    },
+    "place": {
+      "kind": "Residence of the period",
+      "certainty": "disputed",
+      "note": "Für Elise's autograph is dated around 1810, during Beethoven's Pasqualati-house residence. The piece was unpublished in his lifetime and both its dedicatee and exact place are unsettled, so this anchors to his residence of the time."
     }
   },
   {
@@ -288,6 +328,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "A colossus from the years of guardianship over his nephew, the beginning of the late style."
+    },
+    "place": {
+      "kind": "Summer composing retreat",
+      "certainty": "medium",
+      "note": "Around 1818 Beethoven spent summers composing in Mödling, just outside Vienna, where much of the Hammerklavier was written; it is also bound to the years of his fight for the guardianship of his nephew Karl and is dedicated to Archduke Rudolph."
     }
   },
   {
@@ -299,6 +344,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "The most important sacred monument of the late period, \"From the heart - may it return to the heart.\""
+    },
+    "place": {
+      "kind": "Long composition span & commission context",
+      "certainty": "medium",
+      "note": "The Missa Solemnis was written around 1819–1823 in Vienna and nearby Mödling, originally for Archduke Rudolph's installation as archbishop. It spans several years and residences; this anchors to the Mödling summer-composing site as a representative node."
     }
   },
   {
@@ -310,6 +360,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "Thirty-three late variations springing from a single little waltz."
+    },
+    "place": {
+      "kind": "Commission & publishing context",
+      "certainty": "city-level (low)",
+      "note": "The Diabelli Variations grew out of an invitation by the Vienna publisher Anton Diabelli — who asked many composers to each write one variation on his waltz; Beethoven alone wrote thirty-three, finished in 1823. No single composition address is documented, so this is a city-level node marking the publishing context."
     }
   },
   {
@@ -337,6 +392,11 @@ window.BEETHOVEN_JOURNEY_DATA_EN = [
     },
     "listening": {
       "note": "A late string quartet, from the same year as the family crisis with his nephew Karl."
+    },
+    "place": {
+      "kind": "Late-period residence",
+      "certainty": "medium",
+      "note": "Beethoven lived in the Schwarzspanierhaus from autumn 1825 until his death in 1827; Op. 131 was written in 1826 during this late-residence period. It was also in the summer of 1826 that his nephew Karl attempted suicide. The building no longer stands; an approximate location is used."
     }
   },
   {
